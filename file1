@@ -1,3 +1,31 @@
-Practicing Stash
-
-git stash
+1  yum install git -y
+    2  cd /
+    3  ll
+    4  cd mnt/
+    5  mkdir local repo
+    6  ll
+    7  cd local/
+   10  https://github.com/sangharshM/Practcing_GIT.git
+   11  git clone https://github.com/sangharshM/Practcing_GIT.git
+   12  vi Practcing_GIT/
+   13  cd Practcing_GIT/
+   14  vi file1
+   15  git stash
+   16  vi file1
+   17  git branch
+   18  git checkout Dev
+   20  cat file1
+   21  git checkout master
+   22  cat file1
+   23  cat file1.txt
+   24  git stash list
+   25  git stash stash@{0}
+   26  git stash open stash@{0}
+   27  git stash apply stash@{0}
+   29  git add .
+   30  git commit -a
+   31  git status
+   32  git stash apply stash@{0}
+   34  cat file1
+   35  vi file1
+   36  history
